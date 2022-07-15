@@ -44,12 +44,12 @@ function email_verification() {
   var reg = new RegExp("^([-.0-9a-zA-Z]+)@([-.0-9a-zA-Z]+).([a-zA-Z]){2,7}$");
   var email = document.querySelector("#mail").value;
   if (email.length == "") {
-    document.querySelector("#warn-mail").innerHTML = "Please Enter Email";
+    document.querySelector("#warn-mail").textContent = "Please Enter Email";
     document.querySelector("#warn-mail").style.display = "Block";
     return false;
   }
   if (!reg.test(email)) {
-    document.querySelector("#warn-mail").innerHTML = "Email is Invalid";
+    document.querySelector("#warn-mail").textContent = "Email is Invalid";
     document.querySelector("#warn-mail").style.display = "Block";
     return false;
   }

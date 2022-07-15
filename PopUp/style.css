@@ -32,3 +32,14 @@ body{
 .close:hover{
     background-color: red;
 }
+
+#submission{
+    margin-top: 16px;
+    padding-top: 10px;
+}
+#warn-name,#warn-mail{
+    display: none;
+}
+.mail-label{
+    margin-top: 16px;
+}

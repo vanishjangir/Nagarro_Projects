@@ -1,0 +1,26 @@
+.dot{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.btns{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 10px solid black;
+    background-color: aqua;
+}
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.textarea{
+    border: 10px solid black;
+}

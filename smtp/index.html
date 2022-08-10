@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select, input[type = email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Contact Form</h3>
+
+<div>
+  <form onsubmit="sendEmail()">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+
+    <label for="msg">Message</label>
+    <input type="text" id="msg" name="message" placeholder="Your Message..">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail(){
+        Email.send({
+    SecureToken : "91f3fbb0-0d07-4e07-ad95-11aafe171f47",
+    To : 'vanishjangir4@gmail.com',
+    From : "daviddhwan78@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);}
+   
+</script>
+</body>
+</html>

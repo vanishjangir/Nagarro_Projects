@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 app.post("/sendemail", (req, res) => {
   let mailDetails = {
     from: req.body.emails,
-    to: "rachitsharma3642@gmail.com",
+    to: "vanishjangir4@gmail.com",
     subject: "Test mail",
     text: req.body.data,
   };

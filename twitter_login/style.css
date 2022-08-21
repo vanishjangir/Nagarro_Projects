@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.login {
+    display: flex;
+}
+
+.half {
+    width: 100%;
+    height: 96vh;
+}
+
+.icon {
+    width: auto;
+    height: 42px;
+    margin-top: 35px;
+    margin-left: 35px;
+
+}
+
+.container1 {
+    height: 99vh;
+    width: 60vw;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container2 {
+    margin: 0;
+    height: 96vh;
+    width: 50%;
+    background-color: black;
+
+}
+
+h1 {
+    color: #e7e9ea;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 64px;
+
+}
+
+h3 {
+    color: #e7e9ea;
+    font-weight: bolder;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.signup {
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 100px;
+    display: flex;
+    background-color: white;
+    height: 6vh;
+    width: 320px;
+    position: relative;
+}
+
+.signup-content {
+    /* color: white; */
+    /* width: 270px; */
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-right: 10px;
+    /* height: 6vh; */
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.signup-logo {
+    position: absolute;
+    left: 40px;
+    margin-top: 11px;
+    padding-left: 10px;
+    width: auto;
+    height: 22px;
+}
+
+.btn-logo {
+    width: 100%;
+}
+
+.signup-title {
+    font-size: 13px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.or {
+    color: #e7e9ea;
+    margin-left: 40px;
+}
+
+hr {
+    /* color: #e7e9ea; */
+    /* height: 1px;
+    width: 145px;
+    border-style: solid;
+    
+    border-width: 0;
+    background-color: #e7e9ea; */
+    height: 0.09px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 145px;
+    border-bottom: none;
+}
+.terms{
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 340px;
+    color: #e7e9ea;
+    font-size: 0.6rem;
+}
+.account{
+    color: #e7e9ea;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+.footer{
+    margin-top: 15px;
+    color: #71767b;
+    /* display: flex; */
+
+}
+ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+li{
+    list-style: none;
+    margin-top: 8px;
+    padding: 0 7px;
+    font-size: 0.85rem;
+}
